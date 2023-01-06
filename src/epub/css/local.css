@@ -1,2 +1,79 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+.headings{
+	font-variant: all-small-caps;
+	padding: 1em;
+	text-align: center;
+}
+
+[epub|type~="z3998:hymn"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:hymn"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:hymn"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:hymn"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
+figure{
+	break-inside: avoid;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figcaption{
+	font-size: .75em;
+	font-style: italic;
+	margin: 1em;
+}
+
+/* If the image is meant to be on its own page, use this selector... */
+figure.full-page{
+	break-after: page;
+	break-before: page;
+	break-inside: avoid;
+	margin: 0;
+	max-height: 100vh;
+	text-align: center;
+}
+
+@supports(display: flex){
+	figure.full-page{
+		display: flex;
+		flex-direction: column;
+	}
+
+	figure.full-page img{
+		height: 100vh;
+		object-fit: contain;
+	}
+}
