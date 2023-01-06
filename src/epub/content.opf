@@ -66,14 +66,12 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/James_Hogg</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80062998</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">Jacob van Campen</dc:contributor>
 		<meta property="file-as" refines="#artist">van Campen, Jacob</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jacob_van_Campen</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80057420</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="illustrator">Anonymous</dc:contributor>
-		<meta property="file-as" refines="#illustrator">Anonymous</meta>
-		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
 		<dc:contributor id="transcriber-1">Andreas Philipp</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Philipp, Andreas</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
