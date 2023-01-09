@@ -1,12 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-.headings{
-	font-variant: all-small-caps;
-	padding: 1em;
-	text-align: center;
-}
-
 [epub|type~="z3998:hymn"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -76,4 +70,10 @@ figure.full-page{
 		height: 100vh;
 		object-fit: contain;
 	}
+}
+
+#epilogue blockquote:nth-last-of-type(1){
+	font-variant: all-small-caps;
+	padding: 1em;
+	text-align: center;
 }
