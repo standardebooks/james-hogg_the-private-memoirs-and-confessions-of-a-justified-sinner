@@ -57,9 +57,9 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2276</dc:source>
 		<!--Text source-->
-		<dc:source>https://catalog.hathitrust.org/Record/000438212<dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/000438212</dc:source>
 		<!--Illustration source, first edition-->
-		<dc:source>https://archive.org/details/privatememoirsco00hoggrich<dc:source>
+		<dc:source>https://archive.org/details/privatememoirsco00hoggrich</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Private_Memoirs_and_Confessions_of_a_Justified_Sinner</meta>
