@@ -59,7 +59,7 @@
 		<dc:source>https://catalog.hathitrust.org/Record/000438212</dc:source>
 		<!--Illustration source, first edition-->
 		<dc:source>https://archive.org/details/privatememoirsco00hoggrich</dc:source>
-		<meta property="se:word-count">84506</meta>
+		<meta property="se:word-count">84507</meta>
 		<meta property="se:reading-ease.flesch">62.01</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Private_Memoirs_and_Confessions_of_a_Justified_Sinner</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/james-hogg_the-private-memoirs-and-confessions-of-a-justified-sinner</meta>
